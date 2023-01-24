@@ -17,9 +17,9 @@ class SuperHero:
         return f"nickname: {self.nickname}, superpower: {self.superpower}, health_points: {self.health_points}, catchphrase: {self.catchphrase}" 
 
     def len(self):
-        return f"lenght: {len(self.catchphrase)}" 
+        return f"lenght: {len(self.catchphrase)}"
 hero = SuperHero("islam", "isko", "many", 100,"fuck")
-print(hero.gick())
-print(hero.coin())
-print(hero.kit())
-print(hero.len())
+# print(hero.gick())
+# print(hero.coin())
+# print(hero.kit())
+# print(hero.len())
